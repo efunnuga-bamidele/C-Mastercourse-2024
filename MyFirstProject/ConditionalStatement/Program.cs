@@ -19,27 +19,29 @@ namespace ConditionalStatement
 
             Console.WriteLine("Would you prefer what is behing door number 1, 2, or 3?");
             string userValue = Console.ReadLine();
+
+            string message = "";
             if (userValue == "1")
             {
-                Console.WriteLine("You won a new car!");
-                Console.ReadLine();
+                message = "You won a new car!";
             }
             else if (userValue == "2")
             {
-                Console.WriteLine("You won a new bag!");
-                Console.ReadLine();
+                message = "You won a new bag!";
             }
             else if (userValue == "3")
             {
-                Console.WriteLine("You won a new boat!");
-                Console.ReadLine();
+                message = "You won a new boat!";
+               
             }
             else
             {
-                Console.WriteLine("Invalid choice!");
-                Console.ReadLine();
+                message = "Sorry, we didn't understand. You loose!";
             }
-           
+
+            Console.WriteLine(message);
+            Console.ReadLine();
+
         }
     }
 }
