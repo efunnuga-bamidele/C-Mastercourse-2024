@@ -22,8 +22,8 @@ namespace Variables
              Console.ReadLine();
              */
 
-            string myFirstName;
-            myFirstName = "Bamidele";
+            // string myFirstName = "Bamidele";
+            var myFirstName = "Bamidele";  //self assigned data type
             Console.WriteLine(myFirstName);
             Console.ReadLine();
         }
