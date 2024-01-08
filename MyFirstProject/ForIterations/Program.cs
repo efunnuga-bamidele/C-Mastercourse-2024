@@ -18,6 +18,7 @@ namespace ForIterations
                     Console.WriteLine("Found Seven!");
                     break;
                 }
+
             }
             Console.ReadLine();
         }
