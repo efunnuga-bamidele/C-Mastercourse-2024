@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsExpression", "Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTextFileWhile", "ReadTextFileWhile\ReadTextFileWhile.csproj", "{80C66F81-F5B5-4427-80FE-249204F5C49A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{294E86D1-CC3E-48C2-BBC4-DC979B5C6F44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{80C66F81-F5B5-4427-80FE-249204F5C49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80C66F81-F5B5-4427-80FE-249204F5C49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80C66F81-F5B5-4427-80FE-249204F5C49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294E86D1-CC3E-48C2-BBC4-DC979B5C6F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294E86D1-CC3E-48C2-BBC4-DC979B5C6F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294E86D1-CC3E-48C2-BBC4-DC979B5C6F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294E86D1-CC3E-48C2-BBC4-DC979B5C6F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
